@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: black;
+    background-attachment: fixed;
+    background-image: url("../misc/bg.jpg");
+    background-size: cover;
+}
+.header{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding: 15px;
+    padding-top: 30px;
+}
+.head-quote-name{
+    text-align: end;
+    padding-right: 5%;
+    padding-top: 15px;
+    font-size: 0.5em;
+}
+
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+.img-container{
+    border-radius: 10px;
+    border: 5px double white;
+    padding: 20px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    border-radius: 10px;
+}
+
+.upload-label{
+    display: block;
+}
+#upload-file{
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    color: white;
+    background-color: rgb(0, 16, 35);
+}
+
+.prediction{
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px white solid;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    background-color: rgb(0, 16, 35);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#image-preview{
+    /* min-width: 300px; */
+    min-height: 200px;
+    /* max-width: 50%; */
+    max-height: 600px;
+    filter: blur(0);
+}
